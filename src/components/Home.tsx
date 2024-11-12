@@ -71,8 +71,6 @@ const Home: React.FC = () => {
 
   return (
     <div className="flex flex-col justify-center items-center w-full md:w-3/5 mx-auto p-4 px-6 md:px-8 h-full">
-      
-      <p className='font-bold text-4xl'>Tailwind</p>
       <SearchBarComponent
         searchTerm={searchTerm}
         onSearchTermChange={handleSearchTermChange}
